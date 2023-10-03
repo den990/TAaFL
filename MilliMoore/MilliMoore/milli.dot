@@ -1,0 +1,6 @@
+digraph G {
+q0 -> s2/ [label="x1"];
+q1 -> s2/ [label="x1"];
+q2 -> s3/ [label="x1"];
+q3 -> s1/ [label="x1"];
+}

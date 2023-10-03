@@ -1,0 +1,14 @@
+digraph G {
+q0 -> q2 [label="x1"];
+q1 -> q2 [label="x1"];
+q2 -> q1 [label="x1"];
+q3 -> q1 [label="x1"];
+q4 -> q2 [label="x1"];
+q5 -> q0 [label="x1"];
+q0 -> q4 [label="x2"];
+q1 -> q4 [label="x2"];
+q2 -> q4 [label="x2"];
+q3 -> q4 [label="x2"];
+q4 -> q5 [label="x2"];
+q5 -> q3 [label="x2"];
+}
