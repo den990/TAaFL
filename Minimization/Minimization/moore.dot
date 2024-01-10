@@ -1,0 +1,10 @@
+digraph G {
+S1 -> S2 [label="x1"];
+S2 -> S1 [label="x1"];
+S3 -> S4 [label="x1"];
+S4 -> S4 [label="x1"];
+S1 -> S4 [label="x2"];
+S2 -> S1 [label="x2"];
+S3 -> S3 [label="x2"];
+S4 -> S3 [label="x2"];
+}
